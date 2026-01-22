@@ -1,7 +1,7 @@
 from openg2p_bg_task_registry_adapters.schema import (
     BeneficiaryListSummaryPayload,
 )
-from openg2p_g2pconnect_common_lib.schemas import (
+from openg2p_g2p_bridge_models.schemas import (
     Request,
     SyncResponse,
 )

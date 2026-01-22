@@ -2,7 +2,7 @@ import logging
 from datetime import datetime, timezone
 
 from openg2p_bg_task_models.models import DisbursementBatch
-from openg2p_g2pconnect_common_lib.schemas import StatusEnum as StatusEnumCommon
+from openg2p_g2p_bridge_models.schemas import StatusEnum as StatusEnumCommon
 from openg2p_pbms_models.models import (
     G2PBeneficiaryList,
     G2PDisbursementCycle,
